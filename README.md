@@ -1,0 +1,1 @@
+-This a dedicated repo for solutions of challenges from frontendmentor.io 
