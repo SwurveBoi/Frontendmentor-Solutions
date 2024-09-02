@@ -1,6 +1,6 @@
 # Frontend Mentor - Social links profile solution
 
-This is a solution to the [Social links profile challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Social links profile challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -13,7 +13,6 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
-
 
 ## Overview
 
@@ -29,9 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Solution](https://github.com/SwurveBoi/Frontendmentor-Solutions/tree/main)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
 
 ## My process
 
@@ -44,8 +42,7 @@ Users should be able to:
 This is what I learned during this challenge:
 
 ```css
-Better understanding of how flexbox is utilized  
-.prof-links{
+Better understanding of how flexbox is utilized .prof-links {
   display: flex;
   gap: 1em;
   flex-direction: column;
