@@ -7,19 +7,21 @@
   color: hsl(75, 94%, 57%);
 }
 
-.avatar{
+body{
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
-  padding-top: 50px;
+  height: 100vh;
 }
 
 .background {
-  margin: auto;
   background-color: hsl(0, 0%, 12%);
   width: 400PX;
   height: 580PX;
   border-radius: 3%;
-  
+  text-align: center;
+  padding-top: 5%;
 }
 
 img{
@@ -28,10 +30,6 @@ img{
   
 }
 
-.prof-info{
-  text-align: center;
-  font-size: 14px;
-}
 
 .full-name{
   color: hsl(0, 0%, 100%);
@@ -59,6 +57,7 @@ img{
   gap: 1em;
   flex-direction: column;
   align-items: center;
+
 }
 
 button{
@@ -68,16 +67,9 @@ button{
   width: 75%;
   height: 40px;
   border-radius: 10px;
+  
 }
 
-#canvas{
-  display: flex;
-  background-color: hsl(0, 0%, 8%);
-  justify-content: center;
-  align-items: center;
-  height: 700px;
-  width: auto;
-}
 
 button:hover{
   background-color: hsl(75, 94%, 57%);
@@ -85,6 +77,9 @@ button:hover{
   cursor: pointer;
 }
 
+
 body{
   background-color: hsl(0, 0%, 8%);
 }
+
+
