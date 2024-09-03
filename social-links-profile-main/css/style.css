@@ -96,6 +96,7 @@ section a:hover {
   section a {
     height: 32px;
     font-size: 0.75rem;
+    align-content: center;
   }
 }
 
@@ -123,19 +124,20 @@ section a:hover {
 
   section a {
     font-size: 0.75em;
+    align-content: center;
   }
 }
 
 /* Desktop Screens */
 @media (min-width: 1280px) {
-  body{
+  body {
     width: 100%;
   }
-  .background{
+  .background {
     height: 35rem;
   }
-  section a{
+  section a {
     height: 40px;
-   }
-
+    align-content: center;
+  }
 }
