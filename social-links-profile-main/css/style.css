@@ -7,60 +7,54 @@
   color: hsl(75, 94%, 57%);
 }
 
-body{
+body {
+  background-color: hsl(0, 0%, 8%);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .background {
+  margin: 0;
   background-color: hsl(0, 0%, 12%);
-  width: 400PX;
-  height: 580PX;
   border-radius: 3%;
   text-align: center;
   padding-top: 5%;
 }
 
-img{
+img {
   border-radius: 50%;
   width: 100px;
-  
 }
 
-
-.full-name{
+.full-name {
   color: hsl(0, 0%, 100%);
-  font-size: 1.5em;
 }
 
-.location{
+.location {
   color: hsl(75, 94%, 57%);
-  font-size: 0.75rem;
-  
 }
 
-#hobby{
+#hobby {
   color: hsl(0, 0%, 51%);
   font-weight: 300;
 }
 
-.font{
+.font {
   font-family: inter;
   font-weight: 700;
 }
 
-.prof-links{
+.prof-links {
   display: flex;
   gap: 1em;
   flex-direction: column;
   align-items: center;
-
 }
 
-section a{
+section a {
   text-decoration: none;
   color: hsl(0, 0%, 100%);
   background-color: hsl(0, 0%, 20%);
@@ -68,19 +62,80 @@ section a{
   height: 40px;
   border-radius: 10px;
   align-content: center;
-
 }
 
-
-section a:hover{
+section a:hover {
   background-color: hsl(75, 94%, 57%);
   color: hsl(0, 0%, 8%);
   cursor: pointer;
 }
 
+/* Mobile screens */
+@media (min-width: 320px) {
+  body {
+    padding: 2rem;
+    overflow: hidden;
+    font-size: 20px;
+  }
 
-body{
-  background-color: hsl(0, 0%, 8%);
+  .background {
+    width: 20rem;
+    height: 30rem;
+  }
+
+  .fullname {
+    font-size: 2rem;
+  }
+
+  .location {
+    font-size: 0.75rem;
+  }
+  .hobby {
+    font-size: 0.75rem;
+  }
+  section a {
+    height: 32px;
+    font-size: 0.75rem;
+  }
 }
 
+/* Tablet screens */
+@media (min-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+  .background {
+    width: 400px;
+    min-height: 520px;
+  }
 
+  .full-name {
+    font-size: 1.75em;
+  }
+
+  .location {
+    font-size: 0.75rem;
+  }
+
+  .hobby {
+    font-size: 1rem;
+  }
+
+  section a {
+    font-size: 0.75em;
+  }
+}
+
+/* Desktop Screens */
+@media (min-width: 1280px) {
+  body{
+    width: 100%;
+  }
+  .background{
+    height: 35rem;
+  }
+  section a{
+    height: 40px;
+   }
+
+}
